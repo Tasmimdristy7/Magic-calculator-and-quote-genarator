@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">	
+	<title>Assingment 2</title>
+	<link rel="stylesheet" href="stylesheets/quote.css">
+	<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/5ffbd0ba60.js" crossorigin="anonymous"></script>
+	
+	<script src="https://kit.fontawesome.com/5ffbd0ba60.js" crossorigin="anonymous"></script>
+</head>
+<body>
+	<div class="container center">
+		<center>
+			<h1>Hero Converter </h1>
+			<hr>
+			<section>
+				<label for="convert">Convert</label>
+				<input id="convert" type="number">
+				<select name="" id="option">
+					<option value="2">kg to lb</option>
+					<option value="1">lb to kg</option>
+				</select>
+				<button class="btn" id="go">Go</button>
+				<span id="result"></span>
+			</section>
+			<hr><br><br>
+			<h1>Max, Min, Sum, Average</h1>
+			<hr>
+		</center>
+			<section>	
+				<div>
+					<label for="">Input Series Of A Number :</label>
+					<input id="input-box" class="input-box" type="text">
+					<span id="err"></span>
+				</div>
+				<div>
+					<label for="">Max :</label>
+					<span id="max"></span>
+				</div>
+				<div>
+					<label for="">Min :</label>
+					<span id="min"></span>
+				</div>
+				<div>
+					<label for="">Sum :</label>
+					<span id="sum"></span>
+				</div>
+				<div>
+					<label for="">Average :</label>
+					<span id="average"></span>
+				</div>
+				<div>
+					<label for="">Reverse Order :</label>
+					<span id="reverse-order"></span>
+				</div>
+			</section>
+			<hr>
+			<br><br><br>
+			<h1 style="text-align:center;">Magic Box</h1>
+			<hr>
+			<div style="display: grid;background: grey;justify-content: center;">
+				<h1>Magic!</h1>
+				<br>
+				<textarea id="textarea" name="" rows="20" cols="50">
+Axe
+Shaman
+Dazzle
+Sniper
+Abbadon
+Nyx
+Kunkka
+Pudge
+Magnus
+Weaver
+				</textarea>
+				<div class="button-container">
+					<button id="clear" class="button">Clear It</button>
+					<button id="capital" class="button button2">Capitalize</button>
+					<button id="sort" class="button button3">Sort</button>
+					<button id="reverse" class="button button4">Reverse</button>
+					<button id="strip" class="button button5">Strip Blank</button>
+					<button id="add" class="button button5">Add Numbers</button>
+					<button id="shuffle" class="button button5">Shuffle</button>
+				</div>
+			</div>
+			<hr>
+			<br><br><br>
+			<center>
+			<h1>Quote Generator</h1>
+			<section id="button-container" class="section-content">
+				<div class="btn-container" style="background-color:#e5e5e5;">
+					<div class="quotebox" id="factbox">
+						<div class="quotebox-text" id="factDisplay" style="padding : 0 1rem 0 1rem"></div>
+					</div>
+					<br>
+					<div class="btn-section">
+						<button id="red" class="btn-red" onclick="redColor()">red</button>
+						<button id="green" class="btn-green" onclick="greenColor()">green</button>
+						<button id="blue" class="btn-blue" onclick="blueColor()">blue</button>
+						<button id="yellow" class="btn-yellow" onclick="yellowColor()">yellow</button>
+					</div>
+				</div>	
+			</section>
+		</center>
+	</div>
+	
+	<footer>
+		<p>Info</p>
+		<div class="contact">
+			
+			<a href="https://www.facebook.com/profile.php?id=100002572997415" > <i class="fa fa-facebook-official fa-3x" aria-hidden="true"></i> </a>
+			<a href="https://tasmimdristy7.github.io/">
+				<i class="fab fa-github fa-3x"></i>
+			</a>
+		</div>
+		
+	</footer>
+	<script src="javascript.js"></script>
+	<script src="hconverter.js"></script>
+	<script src="math.js"></script>
+	<script src="magic.js"></script>
+</body>
+</html>
